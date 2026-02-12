@@ -11,50 +11,52 @@ This repository contains a **Power BI dashboard** designed to help Formula 1 dri
 
 ## 🖼 **Visuals and Analysis**
 
-### 1. **Best Team to Join in 2024**
+### 1. **Best Team to Join**
 ![Best Team to Join in 2024](visuals/Home.png)
 
 **Analysis:**
-- **Best Team in 2024:** Red Bull is highlighted as the best team to join, with:
-  - **Reliability: 0.84**
-  - **Positions Gained: 0.53**
-  - **Driver Stability: 1.00**
+- **Best Team:** Highlights the best team to join for a given year based on reliability, positions gained, and driver stability.
+- **Key Metrics:**
+  - **Reliability:** Consistency of the team.
+  - **Positions Gained:** Average positions gained per race.
+  - **Driver Stability:** Stability of driver line-up.
 - **Career Opportunity Index:** Graph compares teams based on:
   - **Career Opportunity Index** (x-axis)
   - **Normalized Constructor Rank** (y-axis)
-- **Teams are categorized into quadrants:**
-  - **Win Championship** (top-right)
-  - **Learn Fast** (bottom-right)
-  - **Start Slow** (bottom-left)
-  - **Overrated** (top-left)
+- **Quadrants:**
+  - **Win Championship** (top-right): Teams with high opportunity and high rank.
+  - **Learn Fast** (bottom-right): Teams with high opportunity but lower rank.
+  - **Start Slow** (bottom-left): Teams with lower opportunity and lower rank.
+  - **Overrated** (top-left): Teams with lower opportunity but higher rank.
 
 ---
 
-### 2. **Alpine F1 Team View**
+### 2. **Team View**
 ![Alpine F1 Team View](visuals/Team.png)
 
 **Analysis:**
-- **Team Performance:**
-  - **0 Championships**
-  - **1 Win** (as of 2024)
-  - **4 Podiums**
-  - **Podiums distributed globally:** 2 in Asia, 2 in Europe, and 1 in North America.
-- **Career KPIs:** The graph shows trends in reliability, positions gained, driver replacement, and rank over time.
-- **Drivers:**
-  - **Pierre Gasly:** 10th place in 2024.
-  - **Esteban Ocon:** 31 years old.
+- **Team Performance:** Overview of key performance indicators (KPIs) for any selected team.
+- **Key Metrics:**
+  - **Championships:** Number of championships won by the team.
+  - **Wins:** Total wins by the team.
+  - **Podiums:** Total podiums achieved.
+  - **Pole Positions:** Total pole positions secured.
+- **Career KPIs:** Trends in reliability, positions gained, driver replacement, and rank over time.
+- **Geographical Distribution:** Map showing the distribution of wins across different continents.
+- **Drivers:** Information about the current drivers, including their nationality and performance rank.
 
 ---
 
-### 3. **Pierre Gasly's Career Progression**
+### 3. **Driver Career Progression**
 ![Pierre Gasly's Career Progression](visuals/Driver.png)
 
 **Analysis:**
-- **Career Progression:** Gasly's progression through different teams (Toro Rosso, Red Bull, and Alpine).
+- **Career Progression:** Shows the progression of a driver's career across different teams.
 - **Key Metrics:**
-  - **1 Win** (with Alpine in 2020)
-  - **4 Podiums**
-- **Season Progression:** Shows Gasly's performance across different Grand Prix rounds.
-- **Team Comparison:** Performance trends while driving for AlphaTauri, Red Bull, and Alpine.
+  - **Wins:** Total wins by the driver.
+  - **Podiums:** Total podiums achieved by the driver.
+  - **Pole Positions:** Total pole positions secured by the driver.
+- **Season Progression:** Performance trends of the driver over different seasons.
+- **Team Comparison:** Performance trends while driving for different teams.
 
 ---
